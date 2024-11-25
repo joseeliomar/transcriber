@@ -21,7 +21,7 @@ Este projeto é útil para desenvolvedores que desejam incorporar em suas aplica
 http://localhost:5000/transcrever
 ```
 
-## Requisitos para rodar o projeto
+## Como rodar o projeto
 
 1 - Configure o seu ambiente virtual para utilizar o Python 3.9.+.
 
@@ -71,7 +71,7 @@ Para mais informações sobre o Whisper, você pode acessar o repositório ofici
 ## Notas
 
 Por esse projeto, o transcriber, se tratar de um projeto open source, você pode modificar o código e ajustá-lo para as suas necessidades, inclusive, você pode definir via código o modelo que você deseja utilizar como mostrado nessa tabela abaixo presente no repositório oficial do Whisper:
-
+![Tamanhos do Whisper](whisper-sizes.png)
 
 Para o transcriber, utilizei o modelo no tamanho “small”, e ele se saiu bem nas transcrições, no entanto, se sinta à vontade para trocar por algum outro tamanho que venha a atender às suas necessidades
 
