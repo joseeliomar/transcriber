@@ -9,8 +9,17 @@ Transcriber é uma API Python para transcrição de áudios em texto através de
 
 Este projeto é útil para desenvolvedores que desejam incorporar em suas aplicações funcionalidades que exigem a transcrição de áudio. É ideal para criar recursos como assistentes virtuais, ferramentas de acessibilidade, análise de gravações e outras soluções que exigem a conversão de áudio em texto.
 
-Endpoint para as transcrições:
+## Endpoint da API
+
+### `POST /transcrever`
+**Descrição:** Retorna a transcrição do áudio enviado para a API.
+
+**Método:** `POST`
+
+**Endereço:**
+```bash
 http://localhost:5000/transcrever
+```
 
 ## Requisitos para rodar o projeto
 
